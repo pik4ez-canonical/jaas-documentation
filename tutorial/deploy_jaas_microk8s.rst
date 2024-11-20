@@ -259,6 +259,7 @@ Run the following command to unseal Vault and export the unseal token and root k
 Authorizes the charm to be able to interact with Vault to manage its operations.
 
 .. code:: bash
+
     vault_secret_id=$(juju add-secret vault-token token="$VAULT_TOKEN")
     juju grant-secret vault-token vault
     juju run vault/leader authorize-charm secret-id="$vault_secret_id"
