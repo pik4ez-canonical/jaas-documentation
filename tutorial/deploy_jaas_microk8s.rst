@@ -256,7 +256,7 @@ Run the following command to unseal Vault and export the unseal token and root k
     export UNSEAL_KEY=$(echo "$key_init" | sed -n -e 's/.*Unseal Key 1: //p'); echo "Unseal Key = $UNSEAL_KEY"
     vault operator unseal "$UNSEAL_KEY"
 
-Authorizes the charm to be able to interact with Vault to manage its operations.
+Authorises the charm to be able to interact with Vault to manage its operations.
 
 .. code:: bash
 
