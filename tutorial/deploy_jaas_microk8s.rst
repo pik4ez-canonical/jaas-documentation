@@ -31,7 +31,7 @@ Install some handy tools.
 
 .. code:: bash
 
-    sudo snap install jq
+    sudo apt install jq
     sudo snap install yq
 
 Setup Juju & MicroK8s
